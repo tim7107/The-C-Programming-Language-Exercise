@@ -12,7 +12,7 @@
 typedef enum {
 	MODE_GETCH,
 	MODE_GETLINE,
-}EX4_10_INPUT_MODE;
+} EX4_10_INPUT_MODE;
 
 typedef enum {
 	EXERCISE_4_1 = 1,
@@ -31,8 +31,6 @@ typedef enum {
 	EXERCISE_4_14,
 	TEST,
 } CH4_EXER;
-
-#define swap_EX4_14(type,a,b) { type temp = a; a = b; b = temp; }
 
 int EX4_1_main(char* main, char* sub);
 int EX4_2_main(char** testCase);
