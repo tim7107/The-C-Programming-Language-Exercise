@@ -24,7 +24,7 @@ static exercise_info ch4_exercise_infos[CH4_TOTAL_EXER] = {
 
 int main()
 {
-	CH4_EXER exNum = EXERCISE_4_12;
+	ch4_exer exNum = EXERCISE_4_12;
 	exercise_info exer = ch4_exercise_infos[exNum];
 	FILE* ptr;
 

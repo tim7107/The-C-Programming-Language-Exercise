@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define CH4_TOTAL_EXER		14
 #define CUR_LEVEL			C_DEBUG
 #define SIN					'~'
 #define EXP					'^'
@@ -29,8 +28,9 @@ typedef enum {
 	EXERCISE_4_12,
 	EXERCISE_4_13,
 	EXERCISE_4_14,
+	CH4_TOTAL_EXER,
 	TEST,
-} CH4_EXER;
+} ch4_exer;
 
 int EX4_1_main(char* main, char* sub);
 int EX4_2_main(char** testCase);
